@@ -27,7 +27,7 @@ runs:
   using: "composite"
   steps:
     - name: Azure CLI Login
-      uses: azure/login@v3.0.0
+      uses: azure/login@v3.0.2
       with:
         client-id: ${{ inputs.client-id }}
         tenant-id: ${{ inputs.tenant-id }}
